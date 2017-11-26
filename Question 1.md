@@ -12,7 +12,8 @@ private:
 	char* m_pData;
 }
 /********************************************************/
-解法一：
+//解法一：
+
 CMyString& CMyString::operator=(const CMyString &str)
 {
 	if(this == &str)
@@ -27,7 +28,8 @@ CMyString& CMyString::operator=(const CMyString &str)
 	return *this;
 }
 /********************************************************/
-解法二：
+//解法二：
+
 CMyString& CMystring::operator=(const CMyString &str)
 {
 	if(this! = &str)
