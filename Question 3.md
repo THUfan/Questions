@@ -7,7 +7,7 @@
 	如果输入长度为7的数组{2,3,1,0,2,5,3}，那么对应的重复的数字2或3.
 	/******************************************************************************/
 	解答：
-	bool duplicate(int number[]. int length, int* duplication)
+	bool duplicate(int number[], int length, int* duplication)
 	{
 		if(numbers == nullptr || length <= 0)
 		{
